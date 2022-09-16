@@ -7,15 +7,15 @@ move.color("red") # Choose colour from here
 move.pensize(5) # Size of your pen
 move.shape('turtle')
 
-def making_a_square() :
- move.forward(300)
- move.right(90)
- move.forward(150)
- move.right(90)
- move.forward(300)
- move.right(90)
- move.forward(150)
- move.right(90)
+def making_a_rectangle() :
+ move.forward(300) # The size of the line
+ move.right(90) # Angle 
+ move.forward(150) # The size of the line
+ move.right(90) # Angle
+ move.forward(300) # The size of the line
+ move.right(90) # Angle
+ move.forward(150) # The size of the line
+ move.right(90) # Angle
  
 
-making_a_square()
+making_a_rectangle()
